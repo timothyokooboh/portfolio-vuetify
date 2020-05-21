@@ -11,6 +11,20 @@
       </v-toolbar-title>
     </v-app-bar>
     <v-navigation-drawer app v-model="drawer" class="indigo">
+       <v-layout column align-center>
+        <v-flex class="mt-5">
+          <v-avatar size="100">
+            <img src="../images/bizcard.jpeg" alt="">
+          </v-avatar>
+          <p>
+            <v-btn text class="title">
+              <span class="white--text">TIM</span>
+              <span class="grey--text">CODE</span>
+              <v-icon medium> mdi-adobe-acrobat</v-icon>
+             </v-btn>
+          </p>
+        </v-flex>
+      </v-layout>
       <v-list v-for="(route, index) in routes" :key="index">
         <v-list-item-group>
           <v-list-item router :to="route.link">
