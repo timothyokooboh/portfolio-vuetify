@@ -12,6 +12,7 @@
     </v-app-bar>
     <v-navigation-drawer app v-model="drawer" class="indigo">
        <v-layout column align-center>
+
         <v-flex class="mt-5">
           <v-avatar size="100">
             <img src="../images/bizcard.jpeg" alt="">
@@ -24,6 +25,7 @@
              </v-btn>
           </p>
         </v-flex>
+
       </v-layout>
       <v-list v-for="(route, index) in routes" :key="index">
         <v-list-item-group>
@@ -36,6 +38,17 @@
             </v-list-item-content>
           </v-list-item>
         </v-list-item-group>
+      </v-list>
+
+      <v-list>
+        <v-list-item>
+          <v-list-item-icon>
+            <v-icon class="white--text">mdi-github</v-icon>
+          </v-list-item-icon>
+          <v-list-item-content>
+            <a href="https://github.com/timothyokooboh" class="white--text" style="text-decoration: none">GITHUB</a>
+          </v-list-item-content>
+        </v-list-item>
       </v-list>
     </v-navigation-drawer>
   </div>
