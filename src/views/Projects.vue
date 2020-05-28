@@ -43,7 +43,7 @@
             name: 'INSPIRATIONS', 
             url: "https://findinspirations.info/", 
             githubRepo: 'https://github.com/timothyokooboh/inspirations', 
-            image: "/inspire.png", 
+            image: "inspire.png", 
             urlIcon: 'mdi-web', 
             githubIcon: 'mdi-github',
             description: 'A progressive web app where users can create, share and find inspirational stories'
@@ -52,7 +52,7 @@
             name: 'COVID-19 DASHBOARD', 
             url: "https://timothyokooboh.github.io/#/", 
             githubRepo: 'https://github.com/timothyokooboh/covid19-dev', 
-            image: "/covid.png", 
+            image: "covid.png", 
             urlIcon: 'mdi-web', 
             githubIcon: 'mdi-github',
             description: 'A single page application that displays coronavirus statistics for different countries based on data from WHO'
@@ -61,7 +61,7 @@
             name: 'DICTIONARY', 
             url: "https://timothyokooboh.github.io/dictionary/#/", 
             githubRepo: 'https://github.com/timothyokooboh/dictionary-dev', 
-            image: "/dict.png", 
+            image: "dict.png", 
             urlIcon: 'mdi-web', 
             githubIcon: 'mdi-github',
             description: 'A progressive web app that uses the owlbot.js NPM package to display the meaning of English words'
