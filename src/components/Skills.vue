@@ -11,7 +11,7 @@
     </div>
 
     <div class="mb-5">
-      <div class="title">Front-end framework</div>
+      <div class="title">Front-end frameworks</div>
       <div class="flex-logos">
         <div><img src="vuejs_logo.jpeg" alt="vue.js logo"></div>
         <div><img src="nuxtjs_logo.jpg" alt="nuxt.js logo"></div>
