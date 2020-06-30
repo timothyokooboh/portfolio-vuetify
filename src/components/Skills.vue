@@ -61,5 +61,6 @@
     width: 120px;
     height: 100px;
     object-fit: contain;
+  
   }
 </style>

@@ -1,11 +1,34 @@
 <template>
   <div class="home">
-    <h1 class="text-center my-5">About Me</h1>
+    <div id="bio">
+      <div class="image-container mt-2" id="bio-content">
+        <v-avatar size="150">
+          <img src="/images/profile.jpg">
+        </v-avatar>
+        <div class="font-weight-bold py-3">TIMOTHY <span class="grey--text">OKOOBOH</span></div>
+        <div class="font-weight-bold pb-3">FULL STACK <span class="grey--text">SOFTWARE ENGINEER</span></div>
+        <div>
+          <a href="https://github.com/timothyokooboh" target="_blank">
+            <v-icon color="white" class="mx-2 github-linkedin">mdi-github</v-icon>
+          </a>
+          <a href="https://linkedin.com/in/timothy-okooboh-193980165/" target="_blank">
+            <v-icon color="white" class="mx-2 github-linkedin">mdi-linkedin</v-icon>
+          </a>
+          <a href="https://twitter.com/inspiretim24" target="_blank">
+           <v-icon color="white" class="mx-2 twitter-email">mdi-twitter</v-icon>
+          </a>
+          <a href="mailto:okoobohtimothy@gmail.com" target="_blank">
+            <v-icon color="white" class="mx-2 twitter-email">mdi-email</v-icon>
+          </a>
+
+        </div>
+      </div>
+    </div>
     <v-container>
       <v-card class="text-center pa-5">
         <v-layout row wrap>
           <v-flex xs12 sm4>
-            <v-btn depressed block @click="loadComponent = 'Introduction'">Introduction</v-btn>
+            <v-btn depressed block @click="loadComponent = 'Introduction'">About me</v-btn>
           </v-flex>
           <v-flex xs12 sm4>
             <v-btn depressed block @click="loadComponent = 'Skills'">Skills</v-btn>
@@ -42,16 +65,49 @@ export default {
 }
 </script>
 <style scoped>
+  .image-container {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+  }
+  .round {
+    border-radius: 50%;
+  }
+   #bio {
+    background-image: linear-gradient(45deg, #0D324D, #7F5A83);
+    transform: skewY(-355deg);
+    padding: 2em 0 5em 0;
+    margin-bottom: 2.5em;
+  }
+   #bio-content {
+    transform: skewY(355deg);
+  }
   .slide-in-enter-active {
-    animation: slideIn 200ms ease-out forwards;
+    animation: slideInOne 200ms ease-out forwards;
   }
   .slide-in-leave-active {
     animation: slideOut 200ms ease-out forwards;
   }
-  @keyframes slideIn {
+  .github-linkedin {
+    animation: slideInOne 2s ease-out;
+  }
+  .twitter-email {
+    animation: slideInTwo 2s ease-out;
+  }
+  @keyframes slideInOne {
     from {
       opacity: 0;
       transform: translateX(-100px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0px);
+    }
+  }
+  @keyframes slideInTwo {
+    from {
+      opacity: 0;
+      transform: translateX(100px);
     }
     to {
       opacity: 1;
@@ -68,4 +124,6 @@ export default {
       transform: translateX(-100px);
     }
   }
+
+
 </style>

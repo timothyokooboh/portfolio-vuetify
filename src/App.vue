@@ -1,7 +1,7 @@
 <template>
   <v-app>
     <Header/>
-    <v-content class="">
+    <v-content class= "black white--text">
       <transition name="animate" mode="out-in">
         <router-view :showView="showView"></router-view>
       </transition>

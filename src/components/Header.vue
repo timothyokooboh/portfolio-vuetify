@@ -3,14 +3,16 @@
     <v-app-bar app class="white">
       <v-app-bar-nav-icon @click="drawer = !drawer"></v-app-bar-nav-icon>
       <v-toolbar-title>
-        <v-btn text class="title">
-          <span>TIM</span>
-          <span class="grey--text">CODE</span>
-          <v-icon medium> mdi-adobe-acrobat</v-icon>
-        </v-btn>
+        <router-link to="/">
+          <v-btn text class="title">
+            <span>TIM</span>
+            <span class="grey--text">CODE</span>
+            <v-icon medium> mdi-adobe-acrobat</v-icon>
+          </v-btn>
+        </router-link>
       </v-toolbar-title>
     </v-app-bar>
-    <v-navigation-drawer app v-model="drawer" class="indigo">
+    <v-navigation-drawer app v-model="drawer" color="#000">
        <v-layout column align-center>
 
         <v-flex class="mt-5">
@@ -70,5 +72,8 @@ export default {
 <style>
   .img {
     object-fit: cover;
+  }
+  a {
+    text-decoration: none;
   }
 </style>

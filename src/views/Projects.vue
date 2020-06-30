@@ -1,7 +1,7 @@
 <template>
   <div>
     <v-container>
-      <h1 class="text-center pt-5">These are my works</h1>
+      <h1 class="text-center py-5">These are my works</h1>
       <v-card flat>
         <v-layout row>
 
@@ -27,6 +27,12 @@
               {{project.description}}
             </div>
 
+            <a :href="project.url" target="_blank">
+              <v-btn rounded>
+                Check out
+              </v-btn>
+            </a>
+
           </v-flex>
 
         </v-layout>
@@ -46,7 +52,7 @@
             image: "inspire.png", 
             urlIcon: 'mdi-web', 
             githubIcon: 'mdi-github',
-            description: 'A progressive web app where users can create, share and find inspirational stories'
+            description: 'A progressive web app where users can create, share and find inspirational stories. Built with Vue.JS and Laravel.'
           },
           {
             name: 'COVID-19 DASHBOARD', 
@@ -55,7 +61,7 @@
             image: "covid.png", 
             urlIcon: 'mdi-web', 
             githubIcon: 'mdi-github',
-            description: 'A single page application that displays coronavirus statistics for different countries based on data from WHO'
+            description: 'A single page application that displays coronavirus statistics for different countries based on data from WHO. Made with Vue.JS and Axios.'
           },
           {
             name: 'DICTIONARY', 
@@ -64,7 +70,7 @@
             image: "dict.png", 
             urlIcon: 'mdi-web', 
             githubIcon: 'mdi-github',
-            description: 'A progressive web app that uses the owlbot.js NPM package to display the meaning of English words'
+            description: 'A progressive web app that uses the owlbot.js NPM package to display the meaning of English language words.'
           },
         ]
       }
