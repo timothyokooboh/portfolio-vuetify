@@ -17,7 +17,7 @@
 
         <v-flex class="mt-5">
           <v-avatar size="100">
-            <img src="../images/bizcard.jpeg" alt="">
+            <img src="/images/bizcard.jpeg" alt="">
           </v-avatar>
           <p>
             <v-btn text class="title">
