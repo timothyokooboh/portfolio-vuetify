@@ -46,6 +46,15 @@
       return {
         projects: [
           {
+            name: 'BUY-HUB', 
+            url: "https://buyhub.herokuapp.com/?#/", 
+            githubRepo: 'https://github.com/timothyokooboh', 
+            image: "buyhub.png", 
+            urlIcon: 'mdi-web', 
+            githubIcon: 'mdi-github',
+            description: 'An E-commerce Progressive Web Application made with Vue.js, Node.js and Express.js'
+          },
+          {
             name: 'INSPIRATIONS', 
             url: "https://findinspirations.info/", 
             githubRepo: 'https://github.com/timothyokooboh/inspirations', 
