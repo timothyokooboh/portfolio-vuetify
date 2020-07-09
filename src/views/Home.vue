@@ -3,7 +3,7 @@
     <div id="bio">
       <div class="image-container mt-2" id="bio-content">
         <v-avatar size="150">
-          <img src="/images/profile.jpg">
+          <img src="images/profile.jpg">
         </v-avatar>
         <div class="font-weight-bold py-3">TIMOTHY <span class="grey--text">OKOOBOH</span></div>
         <div class="font-weight-bold pb-3">FULL STACK <span class="grey--text">SOFTWARE ENGINEER</span></div>
@@ -73,15 +73,7 @@ export default {
   .round {
     border-radius: 50%;
   }
-   #bio {
-    background-image: linear-gradient(45deg, #0D324D, #7F5A83);
-    transform: skewY(-355deg);
-    padding: 2em 0 5em 0;
-    margin-bottom: 2.5em;
-  }
-   #bio-content {
-    transform: skewY(355deg);
-  }
+   
   .slide-in-enter-active {
     animation: slideInOne 200ms ease-out forwards;
   }
