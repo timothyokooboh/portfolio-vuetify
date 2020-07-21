@@ -1,18 +1,18 @@
 <template>
     <v-container>
       <h1 class="text-center py-5">Have a project idea? <br>Let's have a conversation</h1>
-      <v-card flat>
+      <v-card dark flat>
         <v-layout wrap row class="my-5">
           <v-flex>
             <v-btn text class="my-5 mx-3">
               <v-icon large left>mdi-phone</v-icon>
-              <span class="subheading font-weight-bold"> <a href="tel:+2348176581327" class="black--text" style="text-decoration: none">+2348176581327</a></span>
+              <span class="subheading font-weight-bold"> <a href="tel:+2348176581327" style="text-decoration: none; color: #FFF">">+2348176581327</a></span>
             </v-btn>
           </v-flex>
           <v-flex>
             <v-btn text class="my-5 mx-3">
               <v-icon large left>mdi-email</v-icon>
-              <span class="subheading font-weight-bold"> <a href="mailto:okoobohtimothy@gmail.com?subject=Let's have a conversation" class="black--text" style="text-decoration:none">okoobohtimothy@gmail.com</a></span>
+              <span class="subheading font-weight-bold"> <a href="mailto:okoobohtimothy@gmail.com?subject=Let's have a conversation" style="text-decoration:none; color: #FFF">okoobohtimothy@gmail.com</a></span>
             </v-btn>
           </v-flex>
           <v-flex>
