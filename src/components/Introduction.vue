@@ -1,7 +1,7 @@
 <template>
   <div class="introduction">
     <div class="py-3">
-      My name is <span class="title">Timothy Okooboh</span> and I am a full stack software enginner.
+      My name is <span class="title">Timothy Okooboh</span> and I am a full-stack software developer.
     </div>
     
     <span v-for="n in 5" :key="n">

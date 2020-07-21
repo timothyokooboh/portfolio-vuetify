@@ -1,6 +1,6 @@
 <template>
   <div>
-    <v-app-bar app class="white">
+    <v-app-bar dark app>
       <v-app-bar-nav-icon @click="drawer = !drawer"></v-app-bar-nav-icon>
       <v-toolbar-title>
         <router-link to="/">

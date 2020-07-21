@@ -25,7 +25,7 @@
       </div>
     </div>
     <v-container>
-      <v-card class="text-center pa-5">
+      <v-card dark class="text-center pa-5">
         <v-layout row wrap>
           <v-flex xs12 sm4>
             <v-btn depressed block @click="loadComponent = 'Introduction'">About me</v-btn>

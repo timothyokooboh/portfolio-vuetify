@@ -2,12 +2,12 @@
   <div>
     <v-container>
       <h1 class="text-center py-5">These are my works</h1>
-      <v-card flat>
+      <v-card flat dark >
         <v-layout row>
 
           <v-flex xs12 sm6 md6 lg4 class="my-2 pa-5 load-lazy " v-for="(project, index) in projects" :key="index">
             <div>
-              <v-btn text class="title"><a :href ="project.url" target="_blank" style="text-decoration: none; letter-spacing: 1.08px">{{project.name}}</a></v-btn>
+              <v-btn text class="title"><a :href ="project.url" target="_blank" style="text-decoration: none; letter-spacing: 1.08px; color: #FFFFFF">{{project.name}}</a></v-btn>
             </div>
 
             <div class=" my-5">
@@ -113,4 +113,5 @@
       transform: translateY(0px);
     }
   }
+
 </style>
