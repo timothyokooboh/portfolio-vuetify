@@ -6,7 +6,7 @@
           <img src="images/profile.jpg">
         </v-avatar>
         <div class="font-weight-bold py-3">TIMOTHY <span class="grey--text">OKOOBOH</span></div>
-        <div class="font-weight-bold pb-3">FULL STACK <span class="grey--text">SOFTWARE ENGINEER</span></div>
+        <div class="font-weight-bold pb-3">FULL STACK <span class="grey--text">SOFTWARE DEVELOPER</span></div>
         <div>
           <a href="https://github.com/timothyokooboh" target="_blank">
             <v-icon color="white" class="mx-2 github-linkedin">mdi-github</v-icon>

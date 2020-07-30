@@ -4,9 +4,6 @@
       My name is <span class="title">Timothy Okooboh</span> and I am a full-stack software developer.
     </div>
     
-    <span v-for="n in 5" :key="n">
-      <v-icon color="" class="star mx-2">mdi-star</v-icon>
-    </span>
     <div class="py-3">In simple terms, we could say that I have the skills, experience and capabilities to either work alone or work with a team in building innovative digital solutions by using web based technologies. </div>
     
     <div class="my-3">
@@ -17,7 +14,7 @@
       What thrills me the most about the work I do are the solutions I provide with the codes I write.
     </div>
     <div class="my-3">
-      PS: I'm also a pharmacist 
+      PS: I'm also a Pharmacist 
       <v-icon>mdi-emoticon-cool-outline</v-icon>
     </div>
 

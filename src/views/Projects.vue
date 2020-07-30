@@ -2,7 +2,7 @@
   <div>
     <v-container>
       <h1 class="text-center py-5">These are my works</h1>
-      <v-card flat dark >
+      <v-card flat dark>
         <v-layout row>
 
           <v-flex xs12 sm6 md6 lg4 class="my-2 pa-5 load-lazy " v-for="(project, index) in projects" :key="index">
@@ -20,7 +20,10 @@
             </div>
 
             <div>
-              <v-img :src="project.image"></v-img>
+              <v-avatar tile height="400" width="300">
+                <v-img :src="project.image"></v-img>
+              </v-avatar>
+            
             </div>
 
             <div class="my-5"> 
@@ -28,7 +31,7 @@
             </div>
 
             <a :href="project.url" target="_blank">
-              <v-btn rounded>
+              <v-btn rounded class="white black--text">
                 Check out
               </v-btn>
             </a>
